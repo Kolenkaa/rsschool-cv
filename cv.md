@@ -16,7 +16,7 @@
 *I am 37 years old. I want to become a frontend developer through these courses and hard work.*
 
 
-## Skills;
+## Skills:
 
 - #### *HTML, CSS*
 - #### *JavaScript(Basic)*
@@ -27,7 +27,7 @@
 ## Education
 
 - #### *Yanka Kupala State University of Grodno (2002-2007)*
-- ##### *faculty of mathematics and informatics*
+
 
 ## Language
 
