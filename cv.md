@@ -24,6 +24,16 @@
 - #### *Figma*
 
 
+## Code:
+
+```
+function multiply(a, b){
+  return a * b
+}
+
+```
+
+
 ## Education
 
 - #### *Yanka Kupala State University of Grodno (2002-2007)*
