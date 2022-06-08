@@ -1,4 +1,155 @@
-h1 {
-	font-family: Geneva, Arial, sans-serif;	
-	color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.header {}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #aaa;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5em;
+}
+
+.menu {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation__item:hover {
+  cursor: pointer;
+  text-decoration: underline;  
+}
+
+.navigation__link {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  color: #000;
+}
+
+.contacts {
+  padding-top: 24px;
+}
+
+.contacts__title {}
+
+.contacts__list {
+  margin-top: 16px;
+}
+
+.contacts__item {}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.about {
+  padding-top: 24px;
+}
+
+.about__title {}
+
+.about__description {
+  margin-top: 16px;
+}
+
+.skills {
+  padding-top: 24px;
+}
+
+.skills__title {}
+
+.skills__list {
+  margin-top: 16px;
+}
+
+.skills__item {}
+
+.skills__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.code {
+  padding-top: 24px;
+}
+
+.code__title {}
+
+.code__description {
+  margin-top: 16px;
+}
+
+.education {
+  padding-top: 24px;
+}
+
+.education__title {}
+
+.education__description {
+  margin-top: 16px;
+}
+
+.language {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.language__title {}
+
+.language__list {
+  margin-top: 16px;
+}
+
+.language__item {}
+
+.language__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.footer {}
+
+.footer__inner {}
+
+.footer__copyright {}
+
+.footer__contact-links {}
+
+.footer__contact-item {}
+
+.footer__contact-link {}
