@@ -49,7 +49,7 @@ body {
 	align-items: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
-justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 .photo__img {
 	border-radius: 50%;
@@ -145,6 +145,52 @@ color: rgb(10, 71, 147);
 .code__description {
   margin-top: 32px;
   font-style: italic;
+}
+
+.projects {
+	padding-top: 40px;
+}
+.container {
+}
+.projects__title {
+}
+.title {
+}
+.projects__wrapper {
+	display: flex;	
+	padding-top: 40px;
+}
+.projects__item {		
+	padding: 10px;
+}
+.projects__item-keyboard,
+.projects__item-slider {
+	width: 50%;
+}
+.projects__screenshot {
+	width: 90%;
+	margin: 0 auto;
+}
+.projects__screenshot:hover {
+	transform: scale(1.1);
+  transition: 0.5s all 0.2s;  
+}
+.projects__link {
+}
+.projects__description {
+	margin-top: 32px;
+}
+.projects__name {
+}
+.projects__text {
+	font-style: italic;
+	margin-top: 16px;
+}
+.projects__instuments {
+	display: flex;
+	margin-top: 16px;
+}
+.projects__lang {
 }
 
 .education {
