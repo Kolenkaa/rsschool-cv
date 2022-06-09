@@ -2,120 +2,128 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./styles/style.css">
-	<title>html-cv</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>html-cv</title>
 </head>
 
 <body>
-<header class="header">
-	<div class="container">
-		<nav class="menu">
-			<ul class="navigation__list">
-				<li class="navigation__item">
-					<a href="#contacts" class="navigation__link">My contacts</a>
-				</li>
-				<li class="navigation__item">
-					<a href="#about" class="navigation__link">About me</a>
-				</li>
-				<li class="navigation__item">
-					<a href="#skills" class="navigation__link">Skills</a>
-				</li>
-				<li class="navigation__item">
-					<a href="#code" class="navigation__link">Code</a>
-				</li>
-				<li class="navigation__item">
-					<a href="#education" class="navigation__link">Education</a>
-				</li>
-				<li class="navigation__item">
-					<a href="#language" class="navigation__link">Language</a>
-				</li>
-			</ul>
-		</nav>
-	</div>
-</header>
-<main class="main">
-	<section class="contacts" id="contacts">
-		<div class="container">
-			<h2 class="contacts__title title">My contacts:</h2>
-			<ul class="contacts__list">
-				<li class="contacts__item">Phone: +375298689609</li>
-				<li class="contacts__item">E-mail: kkolenkaa@gmail.com</li>
-				<li class="contacts__item">GitHub: Kolenkaa</li>
-				<li class="contacts__item">Discord: Nicko(@Kolenkaa)</li>
-			</ul>			
-		</div>		
-	</section>
-	<section class="about" id="about">
-		<div class="container">
-      <h2 class="about__title title">About me:</h2>		
-      <p class="about__description">I am 37 years old. I want to become a frontend developer through these courses and hard work.</p>	
-    </div>	
-	</section>
-	<section class="skills" id="skills">
-		<div class="container">
-      <h2 class="skills__title title">Skills:</h2>
-      <ul class="skills__list">
-        <li class="skills__item">HTML, CSS</li>
-        <li class="skills__item">JavaScript(Basic)</li>
-        <li class="skills__item">GitHub</li>
-        <li class="skills__item">Figma</li>
-      </ul>	
-    </div>			
-	</section>
-	<section class="code" id="code">
-		<div class="container">
-      <h2 class="code__title title">Code:</h2>
-      <p class="code__description">
-        <code>
+  <header class="header">
+    <div class="container">
+      <nav class="menu">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#contacts" class="navigation__link">My contacts</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#about" class="navigation__link">About me</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#skills" class="navigation__link">Skills</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#code" class="navigation__link">Code</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#education" class="navigation__link">Education</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#language" class="navigation__link">Language</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <h2 class="contacts__title title">My contacts:</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">Phone:
+            <a class="contacts__phone-link  contacts-my" href="tel:+375298689609">+375298689609</a>
+          </li>
+          <li class="contacts__item">E-mail:
+            <a class="contacts__mail-link contacts-my" href="mailto:E-mail: kkolenkaa@gmail.com">kkolenkaa@gmail.com</a>
+          </li>
+          <li class="contacts__item">GitHub:
+            <a class="contacts__github-link  contacts-my" href="https://github.com/Kolenkaa" target="_blank">Kolenkaa</a>
+          </li>
+          <li class="contacts__item">Discord:
+            <a class="contacts__discord-link  contacts-my" href="https://discord.com/channels/516715744646660106/543121053161881600" target="_blank">Nicko(@Kolenkaa)</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="about__title title">About me:</h2>
+        <p class="about__description">I am 37 years old. I want to become a frontend developer through these courses
+          and hard work.</p>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="skills__title title">Skills:</h2>
+        <ul class="skills__list">
+          <li class="skills__item">HTML, CSS</li>
+          <li class="skills__item">JavaScript(Basic)</li>
+          <li class="skills__item">GitHub</li>
+          <li class="skills__item">Figma</li>
+        </ul>
+      </div>
+    </section>
+    <section class="code" id="code">
+      <div class="container">
+        <h2 class="code__title title">Code:</h2>
+        <p class="code__description">
+          <code>
           function multiply(a, b){<br>
-            return a * b<br>
+            &nbsp return a * b<br>
           }        
         </code>
-      </p>
-    </div>				
-	</section>
-	<section class="education" id="education">
-		<div class="container">
-      <h2 class="education__title title">Education:</h2>
-      <p class="education__description">Yanka Kupala State University of Grodno (2002-2007)</p>	
-    </div>			
-	</section>
-	<section class="language" id="language">
-		<div class="container">
-      <h2 class="language__title title">Language:</h2>		
-      <ul class="language__list">
-        <li class="language__item">English - A2 by https://test.ulc.by/</li>
-        <li class="language__item">Italy - A1</li>
-        <li class="language__item">Polish - A1</li>
-      </ul>
-    </div>
-	</section>
-</main>
-<footer class="footer">
-  <div class="container">
-    <div class="footer__inner">
-      <div class="footer__copyright">
-        <p>© 2022 by Mikalai Karpovich</p>
+        </p>
       </div>
-      <ul class="footer__contact-links">
-        <li class="footer__contact-item">
-          <a href="https://github.com/Kolenkaa" class="footer__contact-link">GitHub</a>
-        </li>
-        <li class="footer__contact-item">
-          <a href="www.linkedin.com/in/karpnick" class="footer__contact-link">Linkedin</a>
-        </li>
-        <li class="footer__contact-item">
-          <a href="https://rs.school/js/" class="footer__contact-link">
-            <img src="./assets/images/rs_school_js.svg" width="60" height="60" alt="logo-rsschool">
-          </a>
-        </li>
-      </ul>            
-    </div>    
-  </div>
-</footer>
+    </section>
+    <section class="education" id="education">
+      <div class="container">
+        <h2 class="education__title title">Education:</h2>
+        <p class="education__description">Yanka Kupala State University of Grodno (2002-2007)</p>
+      </div>
+    </section>
+    <section class="language" id="language">
+      <div class="container">
+        <h2 class="language__title title">Language:</h2>
+        <ul class="language__list">
+          <li class="language__item">English - A2 by https://test.ulc.by/</li>
+          <li class="language__item">Italy - A1</li>
+          <li class="language__item">Polish - A1</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__copyright">
+          <p>© 2022 by Mikalai Karpovich</p>
+        </div>
+        <ul class="footer__contact-links">
+          <li class="footer__contact-item">
+            <a href="https://github.com/Kolenkaa" class="footer__contact-link" target="_blank">GitHub</a>
+          </li>
+          <li class="footer__contact-item">
+            <a href="https://linkedin.com/in/KarpNick" class="footer__contact-link" target="_blank">Linkedin</a>
+          </li>
+          <li class="footer__contact-item">
+            <a href="https://rs.school/js/" class="footer__contact-link" target="_blank">
+              <img src="./assets/images/rs_school_js.svg" width="60" height="60" alt="logo-rsschool">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
