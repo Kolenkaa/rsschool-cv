@@ -155,7 +155,7 @@ color: rgb(10, 71, 147);
 }
 
 .projects__screenshot {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -171,6 +171,7 @@ color: rgb(10, 71, 147);
 .projects__text {
 	font-style: italic;
 	margin-top: 16px;
+	text-align: justify;
 }
 
 .projects__instuments {
