@@ -1,2 +1,2 @@
-https://kolenkaa.github.io/rsschool-cv/cv
+[https://kolenkaa.github.io/rsschool-cv/]
 >>>>>>
