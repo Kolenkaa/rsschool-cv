@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: aliceblue;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #aaa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5em;
+  color: rgba(20, 86, 15);
+}
+
+.photo__wrapper {
+	display: flex;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+  justify-content: space-evenly;
+}
+
+.photo__name {
+	padding-top: 40px;
+	text-align: center;
+	font-style: italic;
+}
+
+.photo__img {
+	border-radius: 50%;
+}
+
+.photo__description {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 30px;
+	color: #000;
+}
+
+.menu {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation__item:hover {
+  cursor: pointer;
+  text-decoration: underline;  
+  transform: scale(1.2);
+  transition: 0.5s all 0.1s;
+}
+
+.navigation__link {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  color: #000;
+}
+
+.navigation__link:hover {
+	color: rgb(10, 71, 147);
+}
+
+.contacts {
+  padding-top: 40px;
+}
+
+.contacts-my {
+	font-family:Arial, Helvetica, sans-serif;
+	font-style: italic;
+	color: black;
+}
+
+.contacts-my:hover {
+color: rgb(10, 71, 147);
+}
+
+.contacts__list {
+  margin-top: 32px;
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.about {
+  padding-top: 40px;
+}
+
+.about__description {
+  margin-top: 32px;
+}
+
+.skills {
+  padding-top: 40px;
+}
+
+.skills__list {
+  margin-top: 32px;
+}
+
+.skills__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.code {
+  padding-top: 40px;
+}
+
+.code__description {
+  margin-top: 32px;
+  font-style: italic;
+}
+
+.projects {
+	padding-top: 40px;
+}
+
+.projects__wrapper {
+	display: flex;	
+	padding-top: 40px;
+}
+
+.projects__item {		
+	padding: 10px;
+}
+
+.projects__item-keyboard,
+.projects__item-slider {
+	width: 50%;
+}
+
+.projects__screenshot {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.projects__screenshot:hover {
+	transform: scale(1.1);
+  transition: 0.5s all 0.2s;  
+}
+
+.projects__description {
+	margin-top: 32px;
+}
+
+.projects__text {
+	font-style: italic;
+	margin-top: 16px;
+	text-align: justify;
+}
+
+.projects__instuments {
+	display: flex;
+	margin-top: 16px;
+}
+
+
+.education {
+  padding-top: 40px;
+}
+
+.education__description {
+  margin-top: 32px;
+}
+
+.language {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.language__list {
+  margin-top: 32px;
+}
+
+.language__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  color: #000;
+}
+
+.footer__contact-links {
+  display: flex;
+  align-items: center; 
+}
+
+.footer__contact-item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.footer__contact-item:hover {
+  transform: scale(1.2);
+  transition: 0.5s all 0.1s;
+}
+
+.footer__contact-link {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 24px;
+	color: #000;
+}
+
+.footer__contact-link:hover {
+	color: rgb(10, 71, 147);
+}
