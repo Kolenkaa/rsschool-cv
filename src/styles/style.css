@@ -48,6 +48,12 @@ body {
   justify-content: space-evenly;
 }
 
+.photo__name {
+	padding-top: 40px;
+	text-align: center;
+	font-style: italic;
+}
+
 .photo__img {
 	border-radius: 50%;
 }
